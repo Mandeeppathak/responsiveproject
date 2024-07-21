@@ -1,0 +1,115 @@
+.guides-reports-child {
+  height: 799px;
+  width: 1445px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.guides-reports1,
+.see-all {
+  position: relative;
+  display: inline-block;
+}
+.guides-reports1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  max-width: 100%;
+}
+.see-all {
+  line-height: 26px;
+  font-weight: 500;
+  min-width: 58px;
+}
+.link4,
+.see-all-articles3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.see-all-articles3 {
+  font-size: var(--paragraph-size);
+  color: var(--primary);
+}
+.guides-reports-group,
+.guides-reports-items {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+}
+.guides-reports-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.guides-reports-items {
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  grid-template-columns: repeat(3, minmax(288px, 1fr));
+}
+.guides-reports-title {
+  width: 1204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.guides-reports {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-86xl) var(--padding-xl) var(--padding-65xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1050px) {
+  .guides-reports1 {
+    font-size: var(--font-size-17xl);
+  }
+  .guides-reports-items {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(288px, 499px));
+  }
+  .guides-reports {
+    padding-top: var(--padding-49xl);
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .guides-reports-group {
+    flex-wrap: wrap;
+  }
+  .guides-reports-items {
+    grid-template-columns: minmax(288px, 1fr);
+  }
+  .guides-reports-title {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .guides-reports1 {
+    font-size: var(--font-size-8xl);
+  }
+  .guides-reports {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}

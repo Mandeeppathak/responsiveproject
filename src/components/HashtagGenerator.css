@@ -1,0 +1,14 @@
+.hashtag-generator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--semibold-size);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}

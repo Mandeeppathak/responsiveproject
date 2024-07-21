@@ -1,0 +1,352 @@
+.articles3,
+.company {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.articles3 {
+  line-height: 23px;
+  font-weight: 500;
+  text-align: left;
+  min-width: 58px;
+}
+.platforms1 {
+  display: inline-block;
+  min-width: 75px;
+}
+.agencies3,
+.contact-us1,
+.platforms1,
+.resources1 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+}
+.agencies3 {
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 71px;
+}
+.contact-us1,
+.resources1 {
+  display: inline-block;
+  min-width: 79px;
+}
+.contact-us1 {
+  min-width: 84px;
+}
+.company-links,
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer-links {
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+}
+.company-links {
+  gap: var(--gap-6xl);
+}
+.popular {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 77px;
+}
+.influencer-marketing-platforms1 {
+  text-align: left;
+}
+.digital-marketing-agencies,
+.email-marketing-software,
+.influencer-marketing-agencies1,
+.influencer-marketing-platforms1,
+.social-media-agencies,
+.social-media-marketing {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+}
+.marketing-categories,
+.popular-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.marketing-categories {
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+}
+.popular-links {
+  gap: var(--gap-xl);
+}
+.free-tools {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.glossary,
+.image-resizer,
+.instagram-calculator,
+.tiktok-engagement-calculator,
+.youtube-calculator {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+}
+.glossary,
+.image-resizer {
+  display: inline-block;
+  min-width: 65px;
+}
+.image-resizer {
+  min-width: 108px;
+}
+.free-tools-parent,
+.tiktok-engagement-calculator-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tiktok-engagement-calculator-parent {
+  justify-content: center;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+}
+.free-tools-parent {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.cookie-policy,
+.other-links {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 114px;
+}
+.cookie-policy {
+  line-height: 23px;
+  font-weight: 500;
+  text-align: left;
+  min-width: 102px;
+}
+.privacy-policy {
+  display: inline-block;
+  min-width: 105px;
+}
+.affiliate-disclaimer,
+.privacy-policy,
+.terms-conditions {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+}
+.member-login {
+  display: inline-block;
+  min-width: 113px;
+}
+.agency-hub,
+.authors-and-experts,
+.member-login {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+}
+.agency-hub {
+  display: inline-block;
+  min-width: 95px;
+}
+.company-info,
+.cookie-policy-parent,
+.other-links-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cookie-policy-parent {
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-mini);
+}
+.company-info,
+.other-links-parent {
+  gap: var(--gap-6xl);
+}
+.company-info {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.company-footer-child {
+  margin-left: -139px;
+  width: 1483px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.company-footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-99xl);
+  box-sizing: border-box;
+  gap: var(--gap-50xl);
+  max-width: 100%;
+}
+.copyright-2024-influencermarke {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.logo-twitter-icon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+.social-media-icons {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-deeppink-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-9xs);
+}
+.logo-facebook-icon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+}
+.social-media-icons1 {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-deeppink-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.logo-instagram-icon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: contain;
+}
+.social-media-icons2 {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-deeppink-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.tiktok-svgrepo-com-1-icon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-media-icons3 {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-deeppink-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.copyright-2024-influencermarke-parent,
+.social-media-icons-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.copyright-2024-influencermarke-parent {
+  width: 1203px;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.company-footer-parent,
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--paragraph-size);
+}
+.company-footer-parent {
+  background-color: var(--color-gray-500);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0 var(--padding-11xl);
+  gap: var(--gap-8xl);
+  z-index: 1;
+  margin-top: -16px;
+  text-align: center;
+  font-size: var(--semibold-size);
+  color: var(--white);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1200px) {
+  .company-footer {
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .company-info {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .company-footer {
+    gap: var(--gap-15xl);
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .copyright-2024-influencermarke-parent {
+    flex-wrap: wrap;
+  }
+  .company-footer-parent {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .company-footer {
+    gap: var(--gap-mid);
+  }
+}

@@ -1,0 +1,262 @@
+.agencies-image {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  width: 1468px;
+}
+.agencies-card-one-image {
+  height: 462px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 359px;
+}
+.influencer-marketing-agencies {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.view-a-collection {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-size);
+  line-height: 150%;
+  font-weight: 500;
+}
+.agencies-card-one-heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.view-agencies1 {
+  position: relative;
+  font-weight: 500;
+}
+.view-agencies-child {
+  height: 7.4px;
+  width: 18px;
+  position: relative;
+}
+.view-agencies {
+  border-radius: var(--br-481xl);
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-19xl);
+  gap: var(--gap-smi);
+  white-space: nowrap;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.agencies-card-one-content {
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  min-width: 511px;
+  max-width: 100%;
+}
+.top-agencies {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-65xl);
+  max-width: 100%;
+}
+.influencer-marketing-platforms {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.all-the-leading {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-size);
+  line-height: 150%;
+  font-weight: 500;
+}
+.agencies-card-two-heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.view-platforms1 {
+  position: relative;
+  font-weight: 500;
+}
+.view-platforms-child {
+  height: 7.4px;
+  width: 18px;
+  position: relative;
+}
+.view-platforms {
+  border-radius: var(--br-481xl);
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-19xl);
+  gap: var(--gap-smi);
+  white-space: nowrap;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.agencies-card-two-content {
+  width: 493px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  min-width: 493px;
+  max-width: 100%;
+}
+.bottom-image-icon {
+  height: 462px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 359px;
+}
+.agencies-card-two,
+.agencies-content {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.agencies-card-two {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-65xl);
+}
+.agencies-content {
+  position: absolute;
+  top: 133px;
+  left: 146px;
+  width: 1148px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-61xl);
+  z-index: 1;
+}
+.agencies-container {
+  align-self: stretch;
+  height: 1269px;
+  position: relative;
+  max-width: 100%;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1493px;
+  height: 0;
+  z-index: 1;
+}
+.frame-inner {
+  z-index: 2;
+}
+.line-parent {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  margin-top: -130px;
+}
+.agencies1 {
+  align-self: stretch;
+  height: 1285px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1050px) {
+  .influencer-marketing-agencies {
+    font-size: var(--font-size-17xl);
+  }
+  .agencies-card-one-content {
+    flex: 1;
+  }
+  .top-agencies {
+    flex-wrap: wrap;
+  }
+  .influencer-marketing-platforms {
+    font-size: var(--font-size-17xl);
+  }
+  .agencies-card-two-content {
+    flex: 1;
+  }
+  .agencies-card-two {
+    flex-wrap: wrap;
+  }
+  .agencies-container {
+    height: auto;
+    min-height: 1269;
+  }
+  .agencies1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .agencies-card-one-content,
+  .agencies-card-two-content {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .agencies-card-one-image {
+    min-width: 100%;
+  }
+  .influencer-marketing-agencies,
+  .influencer-marketing-platforms {
+    font-size: var(--font-size-8xl);
+  }
+  .bottom-image-icon {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,108 @@
+.component-item {
+  height: 157.8px;
+  width: 216px;
+  position: relative;
+  border-radius: 9.71px;
+  object-fit: cover;
+}
+.modash,
+.ten-years-ago {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.modash {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.ten-years-ago {
+  font-size: var(--paragraph-size);
+  font-weight: 500;
+}
+.modash-name {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+  min-width: 419px;
+  max-width: 100%;
+}
+.view-details1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 113px;
+}
+.view-details-child {
+  height: 7.4px;
+  width: 18px;
+  position: relative;
+}
+.frame-div,
+.modash-content,
+.view-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view-details {
+  border-radius: var(--br-481xl);
+  border: 1px solid var(--primary);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-8xl);
+  gap: var(--gap-smi);
+  white-space: nowrap;
+  font-size: var(--font-size-lg);
+  color: var(--primary);
+}
+.frame-div,
+.modash-content {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.modash-content {
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-11xl);
+  min-width: 581px;
+}
+.frame-div {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-800);
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-20xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1050px) {
+  .modash-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .modash-content,
+  .modash-name {
+    min-width: 100%;
+  }
+  .frame-div {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .modash {
+    font-size: var(--semibold-size);
+    line-height: 29px;
+  }
+}

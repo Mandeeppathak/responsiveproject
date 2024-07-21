@@ -1,0 +1,73 @@
+.frame-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.rectangle-parent {
+  margin-right: -6px;
+  margin-bottom: 46px;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 57.5px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 141px;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.guides-reports-parent,
+.main-landing-page,
+.rectangle-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.guides-reports-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.main-landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  gap: 104px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .rectangle-parent {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    gap: 70px;
+  }
+  .main-landing-page {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent {
+    gap: 35px;
+    padding-bottom: 24px;
+    box-sizing: border-box;
+  }
+  .main-landing-page {
+    gap: var(--gap-7xl);
+  }
+}
